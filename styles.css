@@ -1,0 +1,106 @@
+.naviul{
+	list-style-type: none;
+    	margin: 0;
+    	padding: 0;
+    	overflow: hidden;
+    	background-color: #333;
+}
+.navili{
+	float: left;
+	border-right:1px solid #bbb;
+}
+
+.navilia{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 7px 12px;
+	text-decoration: none;
+
+}
+.nav li:last-child{
+	border-right:none;
+}
+li{
+	cursor: pointer;
+}
+li:hover{
+	//background-color: yellow;
+}
+li.navili:hover{
+	background-color: green;
+}
+li.menulia:hover{
+	background-color: green;
+}
+li.subitem:hover{
+	background-color: yellow;
+}
+#cart{
+	float: right;
+}
+#preview{
+	width:400px;
+	height:400px;
+}
+#fullimage{
+	width:100%;
+	height:100%;
+}
+#cartdialog, #totaldialog{
+	background-color: blue;
+	color: white;
+}
+
+.menuul{
+	list-style-type: none;
+    	margin: 0;
+    	padding: 0;
+    	width: 100%;
+	height: 75%;
+    	//background-color: #f1f1f1;
+    	overflow: auto;
+}
+.menulia{
+	display: block;
+    	color: #000;
+    	padding: 8px 16px;
+    	text-decoration: none;
+}
+.menu li a.active{
+	background-color: #4CAF50;
+	color: white;
+}
+.dropDown{
+	list-style-type: none;
+	display: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+.column{
+	float: left;
+	padding: 10px;
+	height: 100%;
+}
+.left{
+	width: 20%;
+}
+.middle, .right{
+	width: 40%;
+}
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.artimage{
+	width:70%;
+	background-color:#aaa;
+}
+.artdesc{
+	width:30%;
+	background-color:#ccc;
+}
